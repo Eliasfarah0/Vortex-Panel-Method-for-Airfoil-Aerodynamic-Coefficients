@@ -61,7 +61,7 @@ plot(angle_of_attack, CD, 'ko', 'Linewidth', 2)
 title('NASA/LANGLEY LS(1)-0413MOD AIRFOIL: C_{D} vs \alpha')
 xlabel('\alpha')
 ylabel('C_{D}')
-cl_values = {num2str(CD(1)), num2str(CD(2)), num2str(CD(3)), num2str(CD(4)), num2str(CD(5))};
-text(angle_of_attack + 0.1, CD - 0.001, cl_values)
+cd_values = {num2str(CD(1)), num2str(CD(2)), num2str(CD(3)), num2str(CD(4)), num2str(CD(5))};
+text(angle_of_attack + 0.1, CD - 0.001, cd_values)
 grid on
 hold off
