@@ -25,7 +25,7 @@ ylabel('Yb')
 title('NASA/LANGLEY LS(1)-0413MOD AIRFOIL - Real Shape')
 axis image
 
-%% Determine cl with varying angles of attack
+%% Determine cl/cd with varying angles of attack
 angle_of_attack = [0 3 6 9 12]; % 5 Different Angles of Attack
 for i = 1:length(angle_of_attack)
     print = ['At "', num2str(angle_of_attack(i)), ' deg":'];
